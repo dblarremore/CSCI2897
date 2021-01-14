@@ -1,9 +1,9 @@
-
 # CSCI - 2897
-CU Boulder's CSCU 2897 - Calculating Biological Quantities
-Prof. [Daniel Larremore](http://larremorelab.github.io/)
-Spring 2021
-Meets online, Tu/Th 8:00-9:15, Zoom
+
+CU Boulder's CSCU 2897 - Calculating Biological Quantities\ 
+Prof. [Daniel Larremore](http://larremorelab.github.io/)\ 
+Spring 2021\ 
+Meets online, Tu/Th 8:00-9:15, Zoom\ 
 
 ## Schedule
 
@@ -43,12 +43,12 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |      | Final Day | Final Exam (Open Notes)                                       |         |       |             |
 
 ## Syllabus
-Course: CSCI 2830 / CSCI 2897
-Lectures: Tuesday & Thursday, 8:00am – 9:15am 
-Zoom: Unpublished. Please email.
-Lecturer: Daniel Larremore
-Office Hours: Online via Zoom, times TBD.
-Email: daniel.larremore@colorado.edu
+Course: CSCI 2830 / CSCI 2897\ 
+Lectures: Tuesday & Thursday, 8:00am – 9:15am\ 
+Zoom: Unpublished. Please email.\ 
+Lecturer: Daniel Larremore.\ 
+Office Hours: Online via Zoom, times TBD.\ 
+Email: daniel.larremore@colorado.edu\ 
 Webpage: https://github.com/dblarremore/CSCI2897
 
 ### Description
@@ -101,7 +101,6 @@ Both students and faculty are responsible for maintaining an appropriate learnin
 ### Requirements for COVID-19
 
 As a matter of public health and safety due to the pandemic, all members of the CU Boulder community and all visitors to campus must follow university, department and building requirements, and public health orders in place to reduce the risk of spreading infectious disease. Required safety measures at CU Boulder relevant to the classroom setting include:
-
 -   maintain 6-foot distancing when possible,
 -   wear a face covering in public indoor spaces and outdoors while on campus consistent with state and county health orders,
 -   clean local work area,
