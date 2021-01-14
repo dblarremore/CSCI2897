@@ -9,7 +9,7 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 
 | Week | Date      | Topic                                                         | Reading | Links | Assignments |
 |------|-----------|---------------------------------------------------------------|---------|-------|-------------|
-|    1 |     01/14 | Syllabus & a tour of math. models & linear algebra            | OD-1    | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_1.pdf)      |             |
+|    1 |     01/14 | Syllabus & a tour of math. models & linear algebra            | OD-1    | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_1.pdf) [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)      |             |
 |    2 |     01/19 | How to Construct a Model                                      |         |       |             |
 |    2 |     01/21 | Solutions to Differential Equations — Numerical vs Analytical |         |       |             |
 |    3 |     01/26 | Exponential & Logistic Growth                                 |         |       |             |
