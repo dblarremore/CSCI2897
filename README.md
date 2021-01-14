@@ -1,9 +1,9 @@
 # CSCI - 2897
 
-CU Boulder's CSCU 2897 - Calculating Biological Quantities\ 
-Prof. [Daniel Larremore](http://larremorelab.github.io/)\ 
-Spring 2021\ 
-Meets online, Tu/Th 8:00-9:15, Zoom\ 
+CU Boulder's CSCU 2897 - Calculating Biological Quantities\
+Prof. [Daniel Larremore](http://larremorelab.github.io/)\
+Spring 2021\
+Meets online, Tu/Th 8:00-9:15, Zoom\
 
 ## Schedule
 
@@ -43,12 +43,12 @@ Meets online, Tu/Th 8:00-9:15, Zoom\
 |      | Final Day | Final Exam (Open Notes)                                       |         |       |             |
 
 ## Syllabus
-Course: CSCI 2830 / CSCI 2897\ 
-Lectures: Tuesday & Thursday, 8:00am – 9:15am\ 
-Zoom: Unpublished. Please email.\ 
-Lecturer: Daniel Larremore.\ 
-Office Hours: Online via Zoom, times TBD.\ 
-Email: daniel.larremore@colorado.edu\ 
+Course: CSCI 2830 / CSCI 2897\
+Lectures: Tuesday & Thursday, 8:00am – 9:15am\
+Zoom: Unpublished. Please email.\
+Lecturer: Daniel Larremore.\
+Office Hours: Online via Zoom, times TBD.\
+Email: daniel.larremore@colorado.edu\
 Webpage: https://github.com/dblarremore/CSCI2897
 
 ### Description
