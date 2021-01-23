@@ -14,7 +14,7 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |    2 |     01/21 | Solutions to Differential Equations — Numerical vs Analytical |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_3.pdf)      |             |
 |    3 |     01/26 | Exponential & Logistic Growth                                 |         |       |             |
 |    3 |     01/28 | Coding for Exponential & Logistic Growth                      |         |       |             |
-|    4 |     02/02 | Separation of Variables                                       |         |       |             |
+|    4 |     02/02 | Separation of Variables                                       |         |       | [homework 1](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_1.pdf) due            |
 |    4 |     02/04 | Equilibrium states, phase portraits, and direction fields     |         |       |             |
 |    5 |     02/09 | Haploid and Diploid models of natural selection               |         |       |             |
 |    5 |     02/11 | Species Interactions: Lotka Volterra                          |         |       |             |
