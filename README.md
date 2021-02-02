@@ -12,7 +12,7 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |    1 |     01/14 | Syllabus & a tour of math. models & linear algebra            | OD-1, [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)    | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_1.pdf)      |             |
 |    2 |     01/19 | How to Construct a Model                                      | OD-2    | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_2.pdf)      |             |
 |    2 |     01/21 | Solutions to Differential Equations — Numerical vs Analytical |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_3.pdf)      |             |
-|    3 |     01/26 | Exponential & Logistic Growth                                 |         |       |             |
+|    3 |     01/26 | Exponential & Logistic Growth                                 |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_4.pdf)      |             |
 |    3 |     01/28 | Coding for Exponential & Logistic Growth                      |         |       |             |
 |    4 |     02/02 | Separation of Variables                                       |         |       | [hw 1](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_1.pdf) due            |
 |    4 |     02/04 | Equilibrium states, phase portraits, and direction fields     |         |       |             |
