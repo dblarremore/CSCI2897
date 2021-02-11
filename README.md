@@ -13,11 +13,11 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |    2 |     01/19 | How to Construct a Model                                      | OD-2    | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_2.pdf)      |             |
 |    2 |     01/21 | Solutions to Differential Equations — Numerical vs Analytical |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_3.pdf)      |             |
 |    3 |     01/26 | Exponential & Logistic Growth                                 | OD-3.2        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_4.pdf)      |             |
-|    3 |     01/28 | Exponential & Logistic Growth II                      |         |       |             |
-|    4 |     02/02 | Coding for Exponential & Logistic Growth                     |         | [NB2](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_2%20-%20Logistic%20Growth.ipynb), [solutions](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_2%20-%20Logistic%20Growth%20-%20Solutions.ipynb)      | [hw 1](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_1.pdf) due            |
-|    4 |     02/04 | Separation of Variables, Equilibria, and phase portraits     |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_5.pdf)      |             |
-|    5 |     02/09 | Haploid and Diploid models of natural selection               |         |       |             |
-|    5 |     02/11 | Species Interactions: Lotka Volterra                          |         |       |             |
+|    3 |     01/28 | Exponential & Logistic Growth II                              |         |       |             |
+|    4 |     02/02 | Coding for Exponential & Logistic Growth                      |         | [NB2](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_2%20-%20Logistic%20Growth.ipynb), [solutions](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_2%20-%20Logistic%20Growth%20-%20Solutions.ipynb)      | [hw 1](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_1.pdf) due            |
+|    4 |     02/04 | Separation of Variables, Equilibria, and phase portraits      |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_5.pdf)      |             |
+|    5 |     02/09 | Haploid models of natural selection                           | OD-3.3        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_6.pdf)      |             |
+|    5 |     02/11 | Equilibria, and Species Interactions: Lotka Volterra          | OD-3.4        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_7.pdf) [NB3](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_3%20-%20Lotka-Volterra.ipynb)     |             |
 |    6 |     02/16 | Consumer-Resource Models                                      |         |       |             |
 |    6 |     02/18 | Math: Integrating Factors & Linear Equations                  |         |       |             |
 |    7 |     02/23 | SIR models (Measles)                                          |         |       |             |
