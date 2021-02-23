@@ -18,9 +18,9 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |    4 |     02/04 | Separation of Variables, Equilibria, and phase portraits      |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_5.pdf)      |             |
 |    5 |     02/09 | Haploid models of natural selection                           | OD-3.3        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_6.pdf)      |             |
 |    5 |     02/11 | Equilibria, and Species Interactions: Lotka Volterra          | OD-3.4        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_7.pdf) [NB3](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_3%20-%20Lotka-Volterra.ipynb)     |             |
-|    6 |     02/16 | Consumer-Resource Models                                      |         |       |             |
-|    6 |     02/18 | Math: Integrating Factors & Linear Equations                  |         |       |             |
-|    7 |     02/23 | SIR models (Measles)                                          |         |       | [hw 2](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_2.pdf) due            |
+|    6 |     02/16 | Consumer-Resource Models                                      |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_8.pdf)      |             |
+|    6 |     02/18 | Math: Integrating Factors & Linear Equations                  |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_9.pdf)      |             |
+|    7 |     02/23 | SIR models (Measles)                                          |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_10.pdf)      | [hw 2](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_2.pdf) due            |
 |    7 |     02/25 | SI models (HSV)                                               |         |       |             |
 |    8 |     03/02 | Exam 1 Review                                                 |         |       |             |
 |    8 |     03/04 | Exam 1 (Open Notes, In Class)                                 |         |       |             |
