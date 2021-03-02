@@ -22,7 +22,7 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |    6 |     02/18 | Math: Integrating Factors & Linear Equations                  |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_9.pdf)      |             |
 |    7 |     02/23 | SIR models (Measles)                                          |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_10.pdf)      | [hw 2](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_2.pdf) due            |
 |    7 |     02/25 | SIR models II                                                 |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_11.pdf)      |             |
-|    8 |     03/02 | Exam 1 Review                                                 |         | [Outline](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_1_outline.md)      |             |
+|    8 |     03/02 | Exam 1 Review                                                 |         | [Outline](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_1_outline.md) [Review Notes](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_1_in_class_review.pdf)      |             |
 |    8 |     03/04 | Exam 1 (Open Notes, In Class)                                 |         |       |             |
 |    9 |     03/09 | SEIR models (COVID)                                           |         |       |             |
 |    9 |     03/11 | Linearization                                                 |         |       |             |
