@@ -27,8 +27,8 @@
         - Can you tell a story to summarize the model and insights? 
         - What experiments might you conduct, based on your findings?
 - Three Models:
-    1. # of branches on a tree. 
-    2. # of mice in the yard.
+    1. Number of branches on a tree. 
+    2. Number of mice in the yard.
     3. Basic SIR model. 
 - Define time scale.
 - Recursion equation vs Difference equation vs. Differential equation. 
