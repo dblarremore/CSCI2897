@@ -1,0 +1,209 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+\newcounter{choice}
+\renewcommand\thechoice{\Alph{choice}}
+\newcommand\choicelabel{\thechoice.}
+
+\newenvironment{choices}%
+  {\list{\choicelabel}%
+     {\usecounter{choice}\def\makelabel##1{\hss\llap{##1}}%
+       \settowidth{\leftmargin}{W.\hskip\labelsep\hskip 2.5em}%
+       \def\choice{%
+         \item
+       } % choice
+       \labelwidth\leftmargin\advance\labelwidth-\labelsep
+       \topsep=0pt
+       \partopsep=0pt
+     }%
+  }%
+  {\endlist}
+
+\newenvironment{oneparchoices}%
+  {%
+    \setcounter{choice}{0}%
+    \def\choice{%
+      \refstepcounter{choice}%
+      \ifnum\value{choice}>1\relax
+        \penalty -50\hskip 1em plus 1em\relax
+      \fi
+      \choicelabel
+      \nobreak\enskip
+    }% choice
+    % If we're continuing the paragraph containing the question,
+    % then leave a bit of space before the first choice:
+    \ifvmode\else\enskip\fi
+    \ignorespaces
+  }%
+  {}
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+
+
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Spring 2021}
+%%%%%%%%%% Title
+\title{Midterm Exam}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+
+\section*{Instructions}
+\begin{itemize}
+	\item	This exam needs to be taken live, while you're on Zoom for class.
+	\item This exam is open note and open textbook. 
+	\item Collaboration with others in the class during the exam will be considered cheating. Please do this exam on your own.
+	\item If you have questions, please DM me on Zoom.
+	\item Your completed exam should be submitted at the end of class via Canvas.
+	\item The Canvas submission window will close at the end of class +10 minutes, i.e. 9:25 A.M. 
+	\item Please show your work for the math. One way to do this would be to write on a tablet. Another way would be to write on paper and then snap a photo. You can drag the photo into MS Word, for instance. 
+	\item I appreciate your cooperation with this non-traditional exam format. It's not my first choice either, but I am impressed with how flexible everyone (really, everyone!) has been in CSCI 2897 this semester through COVID-19. Thank you!
+\end{itemize}
+
+\vspace{1in}
+
+\hrule \vspace{0.15in}
+Name:\\ 
+
+\hrule \vspace{0.15in}
+Honor Code: ``On my honor, as a University of Colorado Boulder student I have neither given nor received unauthorized assistance.''\\
+
+By signing my name here, I commit to the Honor  Code above: 
+\\ \hrule
+
+\clearpage
+
+\section{Ralphie}
+
+Ralphie stands alone in a field. A cold wind blows off the high plains as the winter sun slides toward the Rocky Mountains. Ralphie feels neither the sun nor the wind, protected by her shaggy winter coat. She is an unquestionably majestic beast, but also super humble, which you wouldn't expect, for a 500 kg {\it B. bison.}
+
+Being a bit of a Ralphie buff, yourself, you know a thing or two about the coat of a bison. For instance, you know that a bison's coat can be quite heavy, because it is always growing at a rate of $1$ kg per day. However, you also know that because bison love to wallow\footnote{
+A bison wallow is a shallow depression in the soil. Bison roll in these depressions, covering themselves with dust or mud.}, they also shed 5\% of their fur every day. 
+
+You take note: Ralphie has been practicing with her Handlers for a pre-season spring football match, which you can tell because her fur has been shorn rather short by their grooming. In fact, you can tell that, as of today, her whole coat weighs a nimble $5$ kg. 
+
+\begin{enumerate}
+	
+	%1
+	\item (5 points) Draw and label a {\bf flow diagram} for $w(t)$, the weight of Ralphie's fur.
+	
+	%2
+	\item (5 points) Use your diagram to write a {\bf differential equation} for the rate of change of $w(t)$ over time. Be sure to also specify the {\bf initial condition} for this problem. 
+	
+	%3
+	\item (5 points) At {\bf steady state}\footnote{Also called ``equilibrium''}, how heavy is Ralphie's majestic coat?
+	
+	%4
+	\item (5 points) {\bf Solve} your differential equation using the initial condition above, and be sure to state the name of method that you use to solve.
+	
+	%5
+	\item (5 points) In your model for the weight of Ralphie's coat, what is the {\bf time scale}?
+
+\end{enumerate}\vspace{0.1in}
+
+Fast forward a week, and you're back at the corral. You just can't get enough of Ralphie, which is not surprising given that {\it B. bison} is both the University of Colorado Boulder's mascot {\it and} the National Mammal of the United States. While at the corral, taking measurements, you notice that, actually, Ralphie's coat is {\it not} growing at a constant rate, but is instead slowing its growth, adding slightly less each day. You eyeball the growth rate of new fur to be given by 
+$$\text{daily fur growth}(t) = 1-\alpha t,$$
+in kg, where $\alpha$ is a positive constant. 
+
+\begin{enumerate}[resume]
+	% 6
+	\item (5 points) Write a new {\bf differential equation} with this information. You may assume that while Ralphie's hair growth differs from your previous analysis, her wallowing behavior and its effects on her coat's weight are unchanged. 
+	
+	%7
+	\item (5 points) Use a method discussed in class to {\bf solve this equation}. Do not plug in the initial condition, but instead leave the constant of integration in your solution. \footnote{By the way, it may interest you to know these facts: 
+	$$\int e^{kx}dx = \frac{e^{kx}}{k} +c,\qquad \int x e^{kx}dx = e^{k x} \frac{kx-1}{k^2}+c,\ \text{and} \qquad \int x^2 e^{kx}dx = e^{kx}\frac{k^2x^2-2kx+2}{k^3}+c$$}
+\end{enumerate}
+
+\clearpage
+
+\section{Short Answers}
+
+Answer the following in complete sentences. 
+\begin{enumerate}[resume]
+	\item (10 points) When modeling a dynamic process, what is the difference between a recursion equation and a difference equation, and how are they related? Is Euler's method a difference equation or a recursion?
+	\item (10 points) Consider the haploid model for selection that we discussed in class. $$\frac{dp}{dt} = s_cp(t)\big(1-p(t)\big),\qquad \text{with } s_c = (b_A - d_A) - (b_a - d_a).$$
+	What are the two equilibria of this system, and how does $s_c$ affect which of the equilibria the system will go toward?
+	\item (10 points) The exponential growth model is $$n(t+1) = R\ n(t).$$ In words and description, can you explain conceptually how the $R$ term can be modified to arrive at the logistic growth model?
+	\item (10 points) Assuming a regular paycheck and expenses, would you rather model the amount of money in a checking account using a model in continuous time or in discrete time, and what might be a reasonable timescale for such a model? Explain.
+	\item Extra credit (+5 points): with reference to question 9, explain what would happen to the proportions of alleles $A$ and $a$ if $b_A - d_A = b_a - d_a$. What would it mean, biologically, for that equality to hold?
+\end{enumerate}
+
+\clearpage
+\section{Multiple choice}
+
+\begin{enumerate}[resume]
+	\item (5 points) Choose {\bf three} of the following options. The differential equation $\dot{y} - 3y^2 = 2$ is:
+  \begin{choices}
+	\choice first order
+	\choice second order
+	\choice linear
+	\choice nonlinear
+	\choice separable
+	\choice not separable
+  \end{choices}
+  \item (10 points) Prof. Joel Kralj is doing an experiment modeling antibiotic persistence, the phenomenon where antibiotics fail to kill all the bacteria in a population because some of the bacteria are effectively dormant, and thus do not take up the antibiotics. He writes down the following life cycle diagram for an experiment in which bacteria are repeatedly subjected to antibiotics.
+  
+  \includegraphics[width=0.6\linewidth]{diagram.jpeg} 
+  
+  Which {\bf one} of the following could be a good recursion for Prof. Kralj's system?
+  \begin{choices}
+	\choice $n(t+1) = \big[m(1-k)(1-d)\big]n(t) + dn(t)$
+	\choice $n(t+1) = \big[ (1-k)(1-d)n(t) + dn(t) \big] m$
+	\choice $n(t+1) = \big[(1 - d - k)n(t) + d\big] m$
+	\choice The limit does not exist. 
+	\choice None of the above. 
+  \end{choices}
+  \end{enumerate}
+  
+  \clearpage
+  \section{Discussion}
+ \begin{enumerate}[resume]
+  \item (10 points) Both {\bf consumer-resource} models (CR; Lecture 8) and {\bf Lotka-Volterra Competition} models (LV; Lecture 7) are examples of models in which we have two interacting species. What are some {\bf key assumptions} that are made by each kind of model, which might help you decide when the LV model or the CR model is more appropriate?  Choose your favorite between the two, and {\bf give an example of a biological system} (not including examples discussed in class) that you could study using that model, and {\bf explain why} that model would be a good fit.
+  
+\end{enumerate}
+
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
