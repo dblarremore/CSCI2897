@@ -1,0 +1,106 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Spring 2021}
+%%%%%%%%%% Title
+\title{Homework 3}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Hamstring curls}
+
+{\bf Write the integrating factor $\mu(t)$ for each of these 1st order linear ODEs.} 
+
+\begin{enumerate}
+	\item $\dy + y = t+3$
+	\item $\dy + 2y = t+3$
+	\item $\dy + 2ty = t+3$
+	\item $\dy + 2ty = (t+3)^2$
+	\item $\dy = q(t) + \ln(t)y$
+\end{enumerate}
+
+\section*{Calf raises} 
+
+{\bf For each 1st order linear ODE below, use the integrating factor method to arrive at a solution for $y(t)$.}
+
+\begin{enumerate}[resume]
+	\item $\dy = t + \ln(t)y, \quad y(2) = 5$
+	\item $\dy - e^{-2t} = 5y, \quad y(0) = \pi$
+\end{enumerate}
+
+\clearpage
+\section*{Measles, Influenza, and Vaccination} 
+
+This problem will focus on two variations on the classic SIR model, both of which will include vaccination. The first variation is meant to learn about {\bf the impact of birth and death} on vaccine-induced herd immunity by thinking about population turnover. The second variation is meant to learn about {\bf the impact of waning immunity} on vaccine-induced herd immunity.
+
+\subsection*{Measles: Birth and Death}
+
+Consider our typical $SIR+V$ model with a perfectly protective vaccine, with the inclusion of birth and death. Specifically, suppose that a fraction $\omega$ of the total population dies per day, but an equal number of people are also born that day, so that the total population size is a constant. You can assume that all people are {\it born susceptible $S$,} but that people in the $S$, $I$, $R$, and $V$ groups die at equal per-capita rates.
+
+\begin{enumerate}[resume]
+	\item Using the typical parameters $\beta$ and $\gamma$ as introduced in class, draw a {\bf flow diagram} for this system. Use one color to draw the typical $SIR+V$ model part of the flow diagram, and use a {\bf second color} to show, in the same diagram, the birth and death modifications that we have introduced.
+	\item Use your flow diagram to write the set of differential equations for this system.
+	\item What are the equilibria for this system? How are they similar to or different from the typical SIR equilibria? Explain this result in the form of a tweet! (240 characters or fewer!)
+	\item Simplify your equations by assuming that no one is infected, and write a new, simplified system of equations. 
+	\item Solve the equation for $\dot{S}$ in terms of generic initial conditions, $ (S,I,R,V)_{t=0} = (S_0, 0, R_0, V_0)$. 
+	\item The value of the basic reproductive number for measles is often estimated to be a whopping 18. Assume that everyone in a population is initially vaccinated against measles. In terms of $\omega$, how long will it take for the population to {\it no longer be protected against a measles epidemic? Be sure to state the units for your conclusions, i.e. be careful with your time scale.}
+\end{enumerate}
+
+\clearpage
+\subsection*{Influenza (and COVID-19?): a return to susceptibility}
+
+Consider our typical $SIR+V$ model with a perfectly protective vaccine, but {\it without} the inclusion of birth and death. Instead, suppose that individuals who are recovered or vaccinated revert to being susceptible at a per-capita rate $\alpha$. As in the previous problem, the total population size is a constant. 
+
+Also, suppose that the community we're modeling has some tourists who are always visiting. Because they visit and then leave, we don't model them explicitly, but we do notice that they cause susceptibles to become infected at a per-capita rate $\theta$. 
+
+\begin{enumerate}[resume]
+	\item Using the typical parameters $\beta$ and $\gamma$ as introduced in class, draw a {\bf flow diagram} for this system. Use one color to draw the typical $SIR+V$ model part of the flow diagram, and use a {\bf second color} to show, in the same diagram, (a) the reversion to susceptibility modifications and (b) the infections from tourists, that we have introduced.
+	\item Use your flow diagram to write the set of differential equations for this system.
+	\item What are the equilibria for this system? How are they similar to or different from the typical SIR equilibria? Explain this result in the form of a tweet! (240 characters or fewer!)
+	\item Suppose that $\beta=1$, $\gamma=0.5$, and $\theta=0.01$, and $\alpha=0.02$. What will happen if 75\% of the population is initially vaccinated, and 25\% are initially susceptible, over two years of simulation? {\bf Working alone or in a group of 2 or 3, modify the SEIR code} from the in-class notebook to answer this question.
+	\item Extra credit: write down three additional questions that you could answer using your mathematical model, and answer one of them.
+\end{enumerate}
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
