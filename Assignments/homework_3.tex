@@ -59,7 +59,7 @@
 {\bf For each 1st order linear ODE below, use the integrating factor method to arrive at a solution for $y(t)$.}
 
 \begin{enumerate}[resume]
-	\item $\dy = t + \ln(t)y, \quad y(2) = 5$
+	\item $\dy = t + \frac{y}{t}, \quad y(2) = 5$
 	\item $\dy - e^{-2t} = 5y, \quad y(0) = \pi$
 \end{enumerate}
 
@@ -75,7 +75,7 @@ Consider our typical $SIR+V$ model with a perfectly protective vaccine, with the
 \begin{enumerate}[resume]
 	\item Using the typical parameters $\beta$ and $\gamma$ as introduced in class, draw a {\bf flow diagram} for this system. Use one color to draw the typical $SIR+V$ model part of the flow diagram, and use a {\bf second color} to show, in the same diagram, the birth and death modifications that we have introduced.
 	\item Use your flow diagram to write the set of differential equations for this system.
-	\item What are the equilibria for this system? How are they similar to or different from the typical SIR equilibria? Explain this result in the form of a tweet! (280 characters or fewer!)
+	\item What are the equilibria for this system? How are they similar to or different from the typical SIR equilibria? Explain this result in the form of a tweet! (240 characters or fewer!)
 	\item Simplify your equations by assuming that no one is infected, and write a new, simplified system of equations. 
 	\item Solve the equation for $\dot{S}$ in terms of generic initial conditions, $ (S,I,R,V)_{t=0} = (S_0, 0, R_0, V_0)$. 
 	\item The value of the basic reproductive number for measles is often estimated to be a whopping 18. Assume that everyone in a population is initially vaccinated against measles. In terms of $\omega$, how long will it take for the population to {\it no longer be protected against a measles epidemic? Be sure to state the units for your conclusions, i.e. be careful with your time scale.}
@@ -91,7 +91,7 @@ Also, suppose that the community we're modeling has some tourists who are always
 \begin{enumerate}[resume]
 	\item Using the typical parameters $\beta$ and $\gamma$ as introduced in class, draw a {\bf flow diagram} for this system. Use one color to draw the typical $SIR+V$ model part of the flow diagram, and use a {\bf second color} to show, in the same diagram, (a) the reversion to susceptibility modifications and (b) the infections from tourists, that we have introduced.
 	\item Use your flow diagram to write the set of differential equations for this system.
-	\item What are the equilibria for this system? How are they similar to or different from the typical SIR equilibria? Explain this result in the form of a tweet! (280 characters or fewer!)
+	\item What are the equilibria for this system? How are they similar to or different from the typical SIR equilibria? Explain this result in the form of a tweet! (240 characters or fewer!)
 	\item Suppose that $\beta=1$, $\gamma=0.5$, and $\theta=0.01$, and $\alpha=0.02$. What will happen if 75\% of the population is initially vaccinated, and 25\% are initially susceptible, over two years of simulation? {\bf Working alone or in a group of 2 or 3, modify the SEIR code} from the in-class notebook to answer this question.
 	\item Extra credit: write down three additional questions that you could answer using your mathematical model, and answer one of them.
 \end{enumerate}
