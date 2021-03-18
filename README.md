@@ -26,8 +26,8 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |    8 |     03/04 | Exam 1 (Open Notes, In Class)                                 |         |       |             |
 |    9 |     03/09 | SEIR models (COVID) and Linearization                         |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_12.pdf)      |             |
 |    9 |     03/11 | SEIR and Vaccination I                                        |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_13.pdf) [NB4](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_4%20-%20The%20SEIR%20Model.ipynb)     |             |
-|   10 |     03/16 | Vaccination II                                                |         |       |             |
-|   10 |     03/18 | Transmission-blocking vaccines                                |         |       |             |
+|   10 |     03/16 | Vaccination II                                                |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)      |             |
+|   10 |     03/18 | SIRS, Malaria                                | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)        |       |             |
 |   11 |     03/23 | Malaria                                                       |         |       |             |
 |   11 |     03/25 | Spring "Break" :/                                             |         |       |             |
 |   12 |     03/30 | Multiple variables, and systems of equations                  |         |       |             |
