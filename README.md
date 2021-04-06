@@ -32,7 +32,7 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |   11 |     03/25 | Spring Wellness Day                                           |         |       |             |
 |   12 |     03/30 | Multiple variables, and systems of equations                  | [L15](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_15.pdf)        |       |             |
 |   12 |     04/01 | Vectors, matrices                                             | [L16](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_16.pdf)        |       |             |
-|   13 |     04/06 | Matrices and inverse matrices                                 |         |       |             |
+|   13 |     04/06 | Matrices and inverse matrices                                 | [NB5](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_5%20-%20Matrix%20Machines.ipynb)        |       |             |
 |   13 |     04/08 | Extras: trace, determinant                                    |         |       |             |
 |   14 |     04/13 | Eigenvalues & Eigenvectors                                    |         |       |             |
 |   14 |     04/15 | Class-structured population models                            |         |       |             |
