@@ -9,29 +9,29 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 
 | Week | Date      | Topic                                                         | Reading | Links | Assignments |
 |------|-----------|---------------------------------------------------------------|---------|-------|-------------|
-|    1 |     01/14 | Syllabus & a tour of math. models & linear algebra            | OD-1, [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)    | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_1.pdf)      |             |
-|    2 |     01/19 | How to Construct a Model                                      | OD-2    | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_2.pdf)      |             |
-|    2 |     01/21 | Solutions to Differential Equations — Numerical vs Analytical |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_3.pdf)      |             |
-|    3 |     01/26 | Exponential & Logistic Growth                                 | OD-3.2        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_4.pdf)      |             |
+|    1 |     01/14 | Syllabus & a tour of math. models & linear algebra            | OD-1, [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)    | [L1](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_1.pdf)      |             |
+|    2 |     01/19 | How to Construct a Model                                      | OD-2    | [L2](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_2.pdf)      |             |
+|    2 |     01/21 | Solutions to Differential Equations — Numerical vs Analytical |         | [L3](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_3.pdf)      |             |
+|    3 |     01/26 | Exponential & Logistic Growth                                 | OD-3.2        | [L4](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_4.pdf)      |             |
 |    3 |     01/28 | Exponential & Logistic Growth II                              |         |       |             |
 |    4 |     02/02 | Coding for Exponential & Logistic Growth                      |         | [NB2](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_2%20-%20Logistic%20Growth.ipynb), [solutions](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_2%20-%20Logistic%20Growth%20-%20Solutions.ipynb)      | [hw 1](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_1.pdf) due            |
-|    4 |     02/04 | Separation of Variables, Equilibria, and phase portraits      |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_5.pdf)      |             |
-|    5 |     02/09 | Haploid models of natural selection                           | OD-3.3        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_6.pdf)      |             |
-|    5 |     02/11 | Equilibria, and Species Interactions: Lotka Volterra          | OD-3.4        | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_7.pdf) [NB3](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_3%20-%20Lotka-Volterra.ipynb)     |             |
-|    6 |     02/16 | Consumer-Resource Models                                      |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_8.pdf)      |             |
-|    6 |     02/18 | Math: Integrating Factors & Linear Equations                  |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_9.pdf)      |             |
-|    7 |     02/23 | SIR models (Measles)                                          |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_10.pdf)      | [hw 2](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_2.pdf) due            |
-|    7 |     02/25 | SIR models II                                                 |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_11.pdf)      |             |
+|    4 |     02/04 | Separation of Variables, Equilibria, and phase portraits      |         | [L5](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_5.pdf)      |             |
+|    5 |     02/09 | Haploid models of natural selection                           | OD-3.3        | [L6](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_6.pdf)      |             |
+|    5 |     02/11 | Equilibria, and Species Interactions: Lotka Volterra          | OD-3.4        | [L7](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_7.pdf) [NB3](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_3%20-%20Lotka-Volterra.ipynb)     |             |
+|    6 |     02/16 | Consumer-Resource Models                                      |         | [L8](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_8.pdf)      |             |
+|    6 |     02/18 | Math: Integrating Factors & Linear Equations                  |         | [L9](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_9.pdf)      |             |
+|    7 |     02/23 | SIR models (Measles)                                          |         | [L10](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_10.pdf)      | [hw 2](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_2.pdf) due            |
+|    7 |     02/25 | SIR models II                                                 |         | [L11](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_11.pdf)      |             |
 |    8 |     03/02 | Exam 1 Review                                                 |         | [Outline](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_1_outline.md) [Review Notes](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_1_in_class_review.pdf)      |             |
 |    8 |     03/04 | Exam 1 (Open Notes, In Class)                                 |         |       |             |
-|    9 |     03/09 | SEIR models (COVID) and Linearization                         |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_12.pdf)      |             |
-|    9 |     03/11 | SEIR and Vaccination I                                        |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_13.pdf) [NB4](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_4%20-%20The%20SEIR%20Model.ipynb)     |             |
-|   10 |     03/16 | Vaccination II                                                |         | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)      |             |
-|   10 |     03/18 | SIRS, Malaria                                | [notes](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)        |       |             |
-|   11 |     03/23 | Malaria                                                       |         |       |             |
-|   11 |     03/25 | Spring "Break" :/                                             |         |       |             |
-|   12 |     03/30 | Multiple variables, and systems of equations                  |         |       |             |
-|   12 |     04/01 | Vectors                                                       |         |       |             |
+|    9 |     03/09 | SEIR models (COVID) and Linearization                         |         | [L12](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_12.pdf)      |             |
+|    9 |     03/11 | SEIR and Vaccination I                                        |         | [L13](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_13.pdf) [NB4](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_4%20-%20The%20SEIR%20Model.ipynb)     |             |
+|   10 |     03/16 | Vaccination II                                                |         | [L14](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)      |             |
+|   10 |     03/18 | SIRS, Malaria                                | [L14](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)        |       |             |
+|   11 |     03/23 | —                                                        |         |       |             |
+|   11 |     03/25 | Spring Wellness Day                                           |         |       |             |
+|   12 |     03/30 | Multiple variables, and systems of equations                  | [L15](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_15.pdf)        |       |             |
+|   12 |     04/01 | Vectors, matrices                                             | [L16](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_16.pdf)        |       |             |
 |   13 |     04/06 | Matrices and inverse matrices                                 |         |       |             |
 |   13 |     04/08 | Extras: trace, determinant                                    |         |       |             |
 |   14 |     04/13 | Eigenvalues & Eigenvectors                                    |         |       |             |
