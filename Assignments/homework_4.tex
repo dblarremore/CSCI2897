@@ -1,0 +1,139 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Spring 2021}
+%%%%%%%%%% Title
+\title{Homework 3}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Hamstring curls}
+
+{\bf Compute the following \so{and please show your work}, supposing that 
+$a=
+\begin{pmatrix}
+1 \\ 
+3 \\
+2
+\end{pmatrix}$,
+$b=
+\begin{pmatrix}
+1 \\ 
+4 \\
+3
+\end{pmatrix}$,
+$c=
+\begin{pmatrix}
+0 \\ 
+1 \\
+1
+\end{pmatrix}$. 
+} 
+
+\begin{enumerate}
+	\item $a+b+c = $
+	\item $a^{T}b = $
+	\item $a+2b+3c = $
+	\item $a b^{T} = $
+\end{enumerate}
+
+\section*{Calf raises} 
+
+{\bf Using the same $a$, $b$, and $c$ as above, and with 
+$D=
+\begin{pmatrix}
+1 & 0 &0  \\ 
+0 & 1 & 2\\
+1 & -1& 1
+\end{pmatrix}$, solve the following, or explain why they cannot be solved. \footnote{Note: just like with regular multiplication, squaring a matrix means multiplying the matrix by itself!} Again, \so{please show your work}.} 
+
+\begin{enumerate}[resume]
+	\item $Da + c =$
+	\item $a^{T}D + c = $
+	\item $D^2=$
+	\item $D^9 a - D^9b + D^9c = $
+	\item $(a^T b) c = $
+	\item $a^T (b c) = $
+\end{enumerate}
+
+\clearpage
+\section*{Reasoning about matrices} 
+
+\begin{enumerate}[resume]
+	\item Suppose you know that $A$ is a symmetric $n \times n$ matrix. Let the matrix $B = A-A^{T}$. Let $x$ be a $n \times 1$ vector. Let $y=Bx$.  What is the {\bf dimension} of $y$? What is $y$?
+	\item Let matrix $P$ have dimensions $5 \times 2$, $Q$ have dimensions $3 \times 2$, and $R$ have dimensions $3 \times 5$.  What is the dimension of $RPQ^{T}$? What about $QQ^{T}R$?
+	\item In reference to the previous problem, write out {\it three} different ways that you could multiply the matrices $P$, $Q$, $R$ or their transposes to creates a $5 \times 5$ matrix. You may use each matrix at most two times in each multiplication.
+	\item Suppose that I hand you two square $n\times n$ matrices, $X$ and $Y$. You multiply them and find that $XY=I$, where $I$ is the identity matrix. How and $X$ and $Y$ related?
+	\item Compute the {\it trace} of $(XYX)(YX)(YXYXY)$.
+\end{enumerate}
+
+\clearpage
+\subsection*{Computing with matrices}
+
+\begin{enumerate}[resume]
+	\item Let $A=
+\begin{pmatrix}
+2 & 1   \\ 
+0 & 1 \\
+\end{pmatrix}$
+and $b=
+\begin{pmatrix}
+9 \\ 
+5 \\
+\end{pmatrix}$. Knowing that $Ax=b$, solve for the vector $x$.
+\item What is the determinant of $A$?
+\item Let $M=
+\begin{pmatrix}
+-2 & 1   \\ 
+\alpha & -1 \\
+\end{pmatrix}$. Knowing that $Mx=d$, where $d=\begin{pmatrix}
+1 \\ 
+1 \\
+\end{pmatrix}$, solve for the vector $x$.  
+\item The solution to the previous question fails to exist at a particular value of $\alpha$. What is this value? Explain why the solution ceases to exist at that value.
+\item Extra credit: Make up a $2 \times 2$ matrix in Python, call it $L$. Make up a $2 \times 1$ vector in Python too, and call it $x$. Now do the following: (i) Compute $y=Lx$. (ii) Compute $x = y / || y ||$, where $||y||$ is the same as \texttt{numpy.linalg.norm(y)}. (iii) Repeatedly do (i) and (ii) 100 times by using x to compute $y$ and then using $y$ to get a new $x$, over and over. What do you notice? Start with a few new initial $x$  vectors and repeat this process. What do you find?  Explore changing $L$ and $x$ and write up some of your findings in under one page with some examples. 
+\end{enumerate}
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
