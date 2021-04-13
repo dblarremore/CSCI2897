@@ -27,14 +27,14 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |    9 |     03/09 | SEIR models (COVID) and Linearization                         |         | [L12](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_12.pdf)      |             |
 |    9 |     03/11 | SEIR and Vaccination I                                        |         | [L13](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_13.pdf) [NB4](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_4%20-%20The%20SEIR%20Model.ipynb)     |             |
 |   10 |     03/16 | Vaccination II                                                |         | [L14](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)      |             |
-|   10 |     03/18 | SIRS, Malaria                                | [L14](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)        |       |             |
-|   11 |     03/23 | —                                                        |         |       |             |
+|   10 |     03/18 | SIRS, Malaria                                				   |         | [L14](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_14.pdf)      |             |
+|   11 |     03/23 | —                                                             |         |       |             |
 |   11 |     03/25 | Spring Wellness Day                                           |         |       |             |
-|   12 |     03/30 | Multiple variables, and systems of equations                  | [L15](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_15.pdf)        |       |             |
-|   12 |     04/01 | Vectors, matrices                                             | [L16](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_16.pdf)        |       |             |
-|   13 |     04/06 | Matrices and inverse matrices                                 | [L17](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_17.pdf)[NB5](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_5%20-%20Matrix%20Machines.ipynb)        |       |             |
-|   13 |     04/08 | Eigenvalues & Eigenvectors                                    | [L18](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_18.pdf)       |       |             |
-|   14 |     04/13 |                                     |         |       |             |
+|   12 |     03/30 | Multiple variables, and systems of equations                  |         | [L15](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_15.pdf)      |             |
+|   12 |     04/01 | Vectors, matrices                                             | OD-Primer2        |  [L16](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_16.pdf)     |             |
+|   13 |     04/06 | Matrices and inverse matrices                                 | OD-Primer2        | [L17](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_17.pdf)[NB5](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_5%20-%20Matrix%20Machines.ipynb)      |             |
+|   13 |     04/08 | Eigenvalues & Eigenvectors                                    | OD-Primer2       | [L18](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_18.pdf)      |             |
+|   14 |     04/13 | Multivariable Linear Systems                                  | OD-7        | [L19](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_19.pdf)      |             |
 |   14 |     04/15 | Class-structured population models                            |         |       |             |
 |   15 |     04/20 | Age-structured SEIR models                                    |         |       |             |
 |   15 |     04/22 | What else can you do with matrices? I                         |         |       |             |
