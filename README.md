@@ -35,7 +35,7 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |   13 |     04/06 | Matrices and inverse matrices                                 | OD-Primer2        | [L17](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_17.pdf) [NB5](https://github.com/dblarremore/CSCI2897/blob/main/Python/Notebook_5%20-%20Matrix%20Machines.ipynb)      |             |
 |   13 |     04/08 | Eigenvalues & Eigenvectors                                    | OD-Primer2       | [L18](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_18.pdf)      |             |
 |   14 |     04/13 | Multivariable Linear Systems                                  | OD-7        | [L19](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_19.pdf)      |             |
-|   14 |     04/15 | Class-structured population models                            |         |       | [hw 4](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_4.pdf) due next day            |
+|   14 |     04/15 | Complex Eigenvalues                            |         | [L20](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_20.pdf)      | [hw 4](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_4.pdf) due next day            |
 |   15 |     04/20 | Age-structured SEIR models                                    |         |       |             |
 |   15 |     04/22 | What else can you do with matrices? I                         |         |       |             |
 |   16 |     04/27 | What else can you do with matrices? II                        |         |       |             |
