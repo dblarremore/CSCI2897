@@ -1,0 +1,105 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Spring 2021}
+%%%%%%%%%% Title
+\title{Homework 5}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Hamstring curls}
+
+\begin{enumerate}
+\item Write the following equations in the form $\mathbf{A}x=b$. Clearly identify what is $A$, what is $x$, and what is $b$ in your answer.
+\begin{align}
+	n_1 &= 3 - n_2 + 5 n_3 \nonumber \\
+	n_2 &= n_4 - 1000 \nonumber \\
+	n_3 + \pi n_1 &= 0 \nonumber \\
+	n_1+n_2 + n_3 + n_4 &= 37 \nonumber 
+\end{align}
+\end{enumerate}
+
+\section*{Calf raises} 
+
+\begin{enumerate}[resume]
+\item Find the eigenvalues and eigenvectors of the following matrix. Show your steps.
+$\mathbf{M}=
+\begin{pmatrix}
+2 & 2  \\ 
+5 & -1
+\end{pmatrix}$
+\item For the same matrix $\mathbf{M}$ above consider the differential equation,
+$$ \dot{n}(t) = \mathbf{M}n(t)\ .$$
+What is the equilibrium solution to this equation? Justify your answer.
+\item Is the equilibrium you just found stable or unstable? Explain how you know.
+\item What are the eigenvalues of the matrix 
+$\mathbf{Q}=
+\begin{pmatrix}
+2 & 0 & 0 & 0 \\ 
+5 & -1 & 0 & 0 \\
+10 & e^{\pi} & \alpha & 0 \\
+100 & 100 & 100 & 101
+\end{pmatrix}$ ?
+\end{enumerate}
+
+\clearpage
+\section*{Choose your own adventure - linear and affine models} 
+In class, we introduced linear models $$\dot{x} = \mathbf{M}x$$ and affine models $$\dot{x} = \mathbf{M}x + c\ ,$$ where $x$ and $c$ are vectors and $\mathbf{M}$ is a square matrix. 
+\begin{enumerate}[resume]
+	\item For a $2$-dimensional system (meaning that $x$ and $c$ are $2 \times 1$ and $\mathbf{M}$ is $2 \times 2$), write down a matrix $\mathbf{M}$ of your choice.
+	\item For your matrix $\mathbf{M}$, draw a {\it flow diagram} that corresponds to your matrix as part of a {\it linear model}. In a sentence, how do the values of the matrix correspond to labels in your flow diagram?
+	\item Now choose {\it positive} values for a vector $c$ and write those down.
+	\item For your vector $c$, and the matrix $\mathbf{M}$, draw a {\it flow diagram}, in a similar spirit to what you did above. In a sentence, how do the values of $c$ show up in your flow diagram?
+	\item Next, flip the signs on the values in $c$ so that they are negative. How might this change the way you'd draw your flow diagram? Explain in a sentence, and draw your new flow diagram with the negative values. 
+	\item Finally, now that you have a flow diagram, write a paragraph explaining a plausible biological system. If you need an example, look to the example on {\bf Lecture 20} on slide 3 (Metastasis of Malignant Tumors). Usually we go from paragraph to diagram to equations. Show how we can go from diagram to paragraph by describing an imagined system with two interacting [you decide what]s in this affine model.
+\end{enumerate}
+
+\section*{Extra credit}
+\begin{enumerate}[resume]
+	\item Read about ONE of the following: the {\bf Leslie Matrix} (population modeling) the {\bf Input-Output matrix} (economics) or {\bf Michaelis-Menten kinetics} (chemistry). How do these relate to what we have studied in class? 
+	\item Read about the life of one of the researchers behind your topic above: Sarah P. Otto (modeling), Wassily Leontief (economics), or Maud Menten (chemistry). Find an interesting (to you) biographical detail about them and share it in your homework. Then, share it on Slack! If someone else has posted a fact on Slack, you have to choose a different one!
+\end{enumerate}
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
