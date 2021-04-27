@@ -36,9 +36,9 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |   13 |     04/08 | Eigenvalues & Eigenvectors                                    | OD-Primer2       | [L18](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_18.pdf)      |             |
 |   14 |     04/13 | Multivariable Linear Systems                                  | OD-7        | [L19](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_19.pdf)      |             |
 |   14 |     04/15 | Complex Eigenvalues                            |         | [L20](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_20.pdf)      | [hw 4](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_4.pdf) due next day            |
-|   15 |     04/20 | Demography and age-structure transition matrices                                    |         | [L22](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_22.pdf)      |             |
-|   15 |     04/22 | What else can you do with matrices? I                         |         |       |             |
-|   16 |     04/27 | What else can you do with matrices? II                        |         |       |             |
+|   15 |     04/20 | Demography and age-structure transition matrices                                    |         | [L21](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_21.pdf)      |             |
+|   15 |     04/22 | Models with 2 conditions: Newton's law, Carbon Dating, Mortgage Payments                         |         | [L22](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_22.pdf)      |             |
+|   16 |     04/27 | Least Squares and Linear Algebra                        | [Final Outline](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_2_outline.md)        |       |             |
 |   16 |     04/29 | Final Exam Review                                             | [hw 5 due](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_5.pdf)        |       |             |
 |      | Final Day | Final Exam (Open Notes)                                       |         |       |             |
 
