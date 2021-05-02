@@ -1,0 +1,301 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+\newcounter{choice}
+\renewcommand\thechoice{\Alph{choice}}
+\newcommand\choicelabel{\thechoice.}
+
+\newenvironment{choices}%
+  {\list{\choicelabel}%
+     {\usecounter{choice}\def\makelabel##1{\hss\llap{##1}}%
+       \settowidth{\leftmargin}{W.\hskip\labelsep\hskip 2.5em}%
+       \def\choice{%
+         \item
+       } % choice
+       \labelwidth\leftmargin\advance\labelwidth-\labelsep
+       \topsep=0pt
+       \partopsep=0pt
+     }%
+  }%
+  {\endlist}
+
+\newenvironment{oneparchoices}%
+  {%
+    \setcounter{choice}{0}%
+    \def\choice{%
+      \refstepcounter{choice}%
+      \ifnum\value{choice}>1\relax
+        \penalty -50\hskip 1em plus 1em\relax
+      \fi
+      \choicelabel
+      \nobreak\enskip
+    }% choice
+    % If we're continuing the paragraph containing the question,
+    % then leave a bit of space before the first choice:
+    \ifvmode\else\enskip\fi
+    \ignorespaces
+  }%
+  {}
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+
+
+
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+
+\newcommand\bigbox{%%
+    \fbox{\rule{2in}{0pt}\rule[-0.5ex]{0pt}{4ex}}}
+\newcommand\answerbox{%%
+    \fbox{\rule{0.5in}{0pt}\rule[-0.5ex]{0pt}{4ex}}}
+
+\newcommand{\aaa}[0]{5 }
+\newcommand{\bbb}[0]{10 }
+\newcommand{\ccc}[0]{5 }
+\newcommand{\ddd}[0]{5 }
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Spring 2021}
+%%%%%%%%%% Title
+\title{Final Exam}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+
+\section*{Instructions}
+\begin{itemize}
+	\item	This exam needs to be taken live, while you're on Zoom for class.
+	\item This exam is open note and open textbook. 
+	\item Collaboration with others during the exam will be considered cheating. Please do this exam on your own.
+	\item If you have questions, please DM me on Zoom.
+	\item Your completed exam should be submitted at the end of class via Canvas.
+	\item The Canvas submission window will close at the end of the final period, i.e. 10:00 P.M. 
+	\item Please show your work for the math {\bf in detail}. One way to do this would be to write on a tablet. Another way would be to write on paper and then snap a photo. You can drag the photo into MS Word, for instance. 
+	\item I appreciate your cooperation with this non-traditional exam format. It's not my first choice either, but I am impressed with how flexible everyone (really, everyone!) has been in CSCI 2897 this semester through COVID-19. Thank you!
+\end{itemize}
+
+\vspace{1in}
+
+\hrule \vspace{0.15in}
+Name:\\ 
+
+\hrule \vspace{0.15in}
+Honor Code: ``On my honor, as a University of Colorado Boulder student I have neither given nor received unauthorized assistance.''\\
+
+By signing my name here, I commit to the Honor  Code above: 
+\\ \hrule
+
+
+
+
+%%%%%%%%%%
+%%%%%%%%%%
+%%%%%%%%%%
+\clearpage
+\section{For the linear algebra fans}
+To provide you with a custom experience, please write your student ID in the box below:
+\begin{center}
+	\bigbox
+\end{center}
+
+Now, divide your student ID into 6 integers, according to the pattern:
+
+\texttt{123|45|6|7|8|9}\\
+\texttt{--a|-b|c|d|e|f}
+
+For instance, if your student ID is 105221934, $a=105$, $b=22$, $c=1$, $d=9$, $e=3$, $f=4$.
+
+Write your personal values of $a, b, c, d, e, f$ in the boxes below:
+
+\begin{center}
+$a$\ \answerbox\quad$b$\ \answerbox\quad$c$\ \answerbox\quad$d$\ \answerbox\quad$e$\ \answerbox\quad$f$\ \answerbox\quad
+\end{center}
+
+Use these values in the four problems on the following page.
+
+\clearpage
+For each problem on this page, perform the matrix computation and then select {\bf all} correct answers that apply from the following list for each problem. {\bf You must show your hand-written work to get credit.} Here are the multiple choice options for each of these four problems:
+{\small
+  \begin{choices}
+	\choice diagonal matrix
+	\choice triangular matrix
+	\choice integrating factor
+	\choice Jeffersonian matrix
+	\choice identity matrix
+	\choice invertible matrix
+	\choice non-invertible (a.k.a. singular) matrix
+	\choice symmetric matrix
+	\choice technically it is not a matrix
+  \end{choices}
+  }
+
+\begin{enumerate}  
+%%%%%%%%
+	\item (\aaa points) Compute and classify $M = \begin{pmatrix}
+c & e \\
+d & f
+\end{pmatrix}
+\begin{pmatrix}
+1 & 2 \\
+-4 & 8
+\end{pmatrix}$.
+\vspace{1.5in}
+  
+%%%%%%%%
+	\item (\aaa points) Compute and classify $M = \begin{pmatrix}
+4 & -5 & -2 \\
+5 & -6 & -2 \\
+-8 & 9 & 3
+\end{pmatrix}
+\begin{pmatrix}
+0 & -3 & -2 \\
+1 & -4 & -2 \\
+-3 & 4 & 1
+\end{pmatrix}$.
+\vspace{1.5in}
+
+%%%%%%%%
+	\item (\aaa points) Compute and classify $M = \begin{pmatrix}
+b \\
+c \\
+\end{pmatrix}
+\begin{pmatrix}
+e & f 
+\end{pmatrix}$.
+\end{enumerate}
+
+
+
+
+%%%%%%%%%%
+%%%%%%%%%%
+%%%%%%%%%%
+\clearpage
+\section{For the vaccine modeling fans}
+
+On the course github, in the Exams folder, find {\bf Article.pdf}, a recently penned New York Times article about the Pfizer and Moderna vaccines. Read the brief article and then answer the following questions. 
+
+\begin{enumerate}[resume]
+	\item (\aaa points) In class, we studied one model for perfect vaccine efficacy and three models for imperfect vaccine efficacy (the all-or-nothing model, the leaky model, and the three-factor model). Based on the article, {\bf rank the models} from {\bf (1) most appropriate} to {\bf (4) least appropriate} for modeling of the Pfizer/Moderna vaccines. Explain your reasoning in 2-3 sentences.
+	\vspace{2in}
+	
+	\item (\bbb points) Our models in class did not differentiate between those with one dose and those with two doses. Write down the {\bf flow diagram} for a SIR model of disease transmission with two additional stages of vaccination called $V_1$ and $V_2$. Assume that (a) susceptible people receive the first dose of vaccine at a per-capita rate $\phi$, (b) people with one dose receive the second dose at a per-capita rate $\phi/2$, (c) both stages $V_1$ and $V_2$ follow a {\bf leaky model} with vaccine efficacies $VE_1$ and $VE_2$, respectively. Label your diagram with typical SIR constants, and additional vaccine-related values as appropriate.
+	\vspace{2in}
+	
+	\item (\bbb points) Write a system of differential equations corresponding to this system.
+	\vspace{2in}
+	 
+	\item (\aaa points) Find the equilibrium or equilibria in this system. Explain it/them in words. 
+	\vspace{2in}
+	
+	\item (\aaa points) Is this a good model for COVID-19 dynamics with vaccination in the US? Point out a flaw with this model and relate it to something you read in the article. Suggest a possible way (just in words) to ameliorate this modeling flaw. 
+\end{enumerate}
+
+
+
+
+%%%%%%%%%%
+%%%%%%%%%%
+%%%%%%%%%%
+\clearpage
+\section{For the ODE fans}
+
+Imagine back a few weeks: It's that season where there's snow but also sun. Snowmelt ramps up during the day and falls off at night, creating little ponds that appear in the afternoon and mostly drain by morning as they absorb into the earth. You do some thinking and write out the following model for the {\bf daytime} during which water flows into the pond but also drains out.
+\begin{equation}
+	\frac{dV}{dt} = 1-\tfrac{1}{12}V, \qquad V(0)=0\ .
+\end{equation}
+Here, $V$ is the volume of water in the pond and $t$ is measured in hours, starting from sunrise at $t=0$.
+\begin{enumerate}[resume]
+	\item (\aaa points) Which term corresponds to water flowing into the pond? Which term corresponds to water flowing out? What modeling assumptions are we making about inflow and outflow in this simple model?
+	\vspace{1.0in}
+	
+	\item (\bbb points) Solve the equation using any method for which you can show your work.
+	\vspace{2.5in}
+	
+	\item (\aaa points) Use your solution to predict the volume of water in the pond after 12 hours (sundown).
+	\vspace{0.5in}
+	
+	\pagebreak
+	\item (\bbb points) After sundown, you notice that the snowmelt from the day no longer flows into the pond, but the pond continues to drain according to the same draining rule (mathematically speaking) as during the day. Write a new equation and put a box around it. Solve it to obtain an equation for the dynamics of $V$ overnight, using the {\it final volume you found in the previous problem} as the initial condition of this problem. Put a box around that answer too. 
+	\vspace{2.5in}
+		
+	\item (\aaa points) Based on the day model and the night model, how much water is there at the start of the second day, at sunrise? 
+	\vspace{1.0in}
+		
+	\item (Extra Credit) Imagine that this process above, with daytime and nighttime cycles repeated every day for a long time. How much water would we find in the pond at the start of the day, $V_\text{sunrise}$? If you can't answer this problem exactly, can you place a lower bound and an upper bound on the start-of-the-day volume, as in $a \leq V_\text{sunrise} \leq b$? All answers must be explained for credit. 
+\end{enumerate}
+
+
+
+
+%%%%%%%%%%
+%%%%%%%%%%
+%%%%%%%%%%
+\clearpage
+\section{For the linear system fans}
+
+You turn to the last page of the final. The question reads your mind as it describes exactly what you are thinking and doing. ``lol...'' you sigh to yourself. You are a straight shooter who plays it cool under pressure, but still, you wouldn't mind a straightforward problem to close out the test. It has been a long semester, after all. 
+
+To your surprise the last problem is pretty straightforward.
+$$
+\frac{d\vec{n}}{dt}  =
+\begin{pmatrix}
+8 & 3 \\ 2 & 7
+\end{pmatrix}
+\vec{n}
++ \begin{pmatrix}
+1\\2
+\end{pmatrix}
+$$
+\begin{enumerate}[resume]
+	\item (\bbb points) Calculate the equilibrium of this system. Use a method or approach from linear algebra in your answer for full credit. 
+	\vspace{2in}
+	
+	\item (\aaa points) Is this equilibrium stable or unstable? Use a method or approach from linear algebra in your answer for full credit. If you can't find the answer, but you know how you {\it would} find the answer, explain your idea.
+	\vspace{2in}
+	
+	\item (Extra Credit) If $\vec{n}$ represented the population sizes of Critters and Varmints, with Critters represented by the first entry in $\vec{n}$ and Varmints represented by the second entry, what would be the long-term population proportion of Critters?
+\end{enumerate}
+
+\clearpage
+[Extra space as needed] \ 
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
