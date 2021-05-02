@@ -39,8 +39,8 @@ Meets online, Tu/Th 8:00-9:15, Zoom
 |   15 |     04/20 | Demography and age-structure transition matrices                                    |         | [L21](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_21.pdf)      |             |
 |   15 |     04/22 | Models with 2 conditions: Newton's law, Carbon Dating, Mortgage Payments                         |         | [L22](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_22.pdf)      |             |
 |   16 |     04/27 | Least Squares and Linear Algebra                        | [Final Outline](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_2_outline.md)        | [L23](https://github.com/dblarremore/CSCI2897/blob/main/Notes/lecture_23.pdf)      |             |
-|   16 |     04/29 | Final Exam Review                                             | [hw 5 due](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_5.pdf)        |       |             |
-|      | Final Day | Final Exam (Open Notes)                                       |         | [Review Notes](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_2_in_class_review.pdf)      |             |
+|   16 |     04/29 | Final Exam Review                                             | [hw 5 due](https://github.com/dblarremore/CSCI2897/blob/main/Assignments/homework_5.pdf) [Review Notes](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Exam_2_in_class_review.pdf)        |       |             |
+|      | Final Day | Final Exam (Open Notes)                                       |         | [Final](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Final.pdf) [Article](https://github.com/dblarremore/CSCI2897/blob/main/Exams/Article.pdf)      |             |
 
 ## Syllabus
 Course: CSCI 2830 / CSCI 2897\
